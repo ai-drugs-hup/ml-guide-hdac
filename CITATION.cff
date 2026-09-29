@@ -21,9 +21,6 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.21863892
     description: Concept DOI, always resolving to the most recent version
-  - type: doi
-    value: 10.5281/zenodo.21864024
-    description: Version DOI for release v1.0.2
 keywords:
   - HDAC
   - histone deacetylase
