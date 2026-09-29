@@ -10,14 +10,14 @@ as a single archive, linked below.
 | | |
 |---|---|
 | File | `hdac-reproduction-archive.zip` |
-| Size | 3,354,658,741 bytes (3.2 GB) |
-| SHA-256 | `2dd643a81df49e5cee0229a4a8b90da91fe29f52f92d640adb7f89034c6f910c` |
+| Size | 3,360,451,084 bytes (3.4 GB) |
+| SHA-256 | `61c19a9849662c023cc7d18eeb7a76b927df94936c0d2d3d379524aad17974b4` |
 
 Check the download before unzipping it:
 
 ```bash
 sha256sum hdac-reproduction-archive.zip
-# expect 2dd643a81df49e5cee0229a4a8b90da91fe29f52f92d640adb7f89034c6f910c
+# expect 61c19a9849662c023cc7d18eeb7a76b927df94936c0d2d3d379524aad17974b4
 ```
 
 If the checksum does not match, or the link does not resolve, contact the authors — see the
@@ -53,6 +53,22 @@ rather than an error. The pipeline asserts row counts, but the checksums are the
 | `results/pretrained_model_grover/` | The pretrained `grover_large.pt` |
 | `results/final-virtual-screening-result/` | Screening embeddings and the published screening output |
 | `expected_output/` | Our own reproduction outputs, for file-by-file comparison |
+| `supplementary_information/` | The manuscript's supplementary information (`supplementary_information.pdf`) and the virtual-screening tables VS1 to VS5 as separate PDFs, plus the graphical abstract |
+
+## Supplementary information
+
+`supplementary_information/` is for reading, not for running: nothing in `scripts/` needs it, so you
+can leave it out of the checkout. The same PDFs are also in this repository under
+[`documents/`](documents/). The tables are provided as separate files so each can be cited or opened
+on its own:
+
+| File | Table |
+|---|---|
+| `table-vs1-virtual-screening.pdf` | VS1, virtual screening of the 60 designed compounds with the GROVER classifiers |
+| `table-vs2-ecfp4-screening.pdf` | VS2, the same compounds scored by ECFP4-based classifiers |
+| `table-vs3-training-similarity.pdf` | VS3, structural overlap and nearest-neighbour similarity between the designed compounds and the training set |
+| `table-vs4-panobinostat-fragment.pdf` | VS4, training compounds containing the hydroxamate-vinyl-para-benzyl-nitrogen fragment shared with panobinostat and series IX |
+| `table-vs5-mcnemar.pdf` | VS5, paired McNemar comparison of the representations on the held-out test set |
 
 ## Two file layouts you may encounter
 

@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21863892.svg)](https://doi.org/10.5281/zenodo.21863892)
 
-![Graphical abstract: molecular 2D graphs are encoded by a fine-tuned GROVER representation model and classified by random forest, XGBoost and MLP classifiers; 60 designed compounds are screened down to 6 synthesised compounds of series IX; these are evaluated for HDAC inhibition, cytotoxicity, cell-cycle effects and apoptosis, with IXc inhibiting HDAC at 19.33 nM against 79.95 nM for SAHA.](documents/toc-graphic.png)
+![Graphical abstract: molecular 2D graphs are encoded by a fine-tuned GROVER representation model and classified by random forest, XGBoost and MLP classifiers; 60 designed compounds are screened down to 6 synthesised compounds of series IX; these are evaluated for HDAC inhibition, cytotoxicity, cell-cycle effects and apoptosis, with IXf inhibiting HDAC at 19.33 nM against 79.95 nM for SAHA.](documents/toc-graphic.png)
 
 Code accompanying the manuscript. A pretrained [GROVER](https://github.com/tencent-ailab/grover)
 graph transformer is fine-tuned on HDAC activity data and used to prioritise synthetically
@@ -11,10 +11,10 @@ the selected compounds were synthesised, and evaluated by docking, molecular dyn
 biological assay.
 
 This repository holds **code only**. The dataset and the trained model weights are distributed as a
-single archive, `hdac-reproduction-archive.zip` (3.2 GB):
+single archive, `hdac-reproduction-archive.zip` (3.4 GB):
 
 **https://gofile.me/7YCnG/JFuqjR9Do**
-&nbsp;&nbsp;SHA-256 `2dd643a81df49e5cee0229a4a8b90da91fe29f52f92d640adb7f89034c6f910c`
+&nbsp;&nbsp;SHA-256 `61c19a9849662c023cc7d18eeb7a76b927df94936c0d2d3d379524aad17974b4`
 
 See [ARCHIVE.md](ARCHIVE.md) for what it contains and how to use it.
 
