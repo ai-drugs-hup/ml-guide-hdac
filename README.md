@@ -13,7 +13,7 @@ biological assay.
 This repository holds **code only**. The dataset and the trained model weights are distributed as a
 single archive, `hdac-reproduction-archive.zip` (3.4 GB):
 
-**https://gofile.me/7YCnG/JFuqjR9Do**
+**https://drive.google.com/file/d/1Y_FV8KMapkp-umO_GRyMKN4AVBqwN3gM/view?usp=sharing**
 &nbsp;&nbsp;SHA-256 `61c19a9849662c023cc7d18eeb7a76b927df94936c0d2d3d379524aad17974b4`
 
 See [ARCHIVE.md](ARCHIVE.md) for what it contains and how to use it.

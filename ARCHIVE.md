@@ -5,7 +5,7 @@ as a single archive, linked below.
 
 ## Obtaining it
 
-**Download: https://gofile.me/7YCnG/JFuqjR9Do**
+**Download: https://drive.google.com/file/d/1Y_FV8KMapkp-umO_GRyMKN4AVBqwN3gM/view?usp=sharing**
 
 | | |
 |---|---|
